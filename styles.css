@@ -749,6 +749,46 @@ section {
   border: 0;
 }
 
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.thank-you-body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.thank-you-main {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl) var(--spacing-sm);
+}
+
+.thank-you-card {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  padding: var(--spacing-xl);
+  max-width: 640px;
+  width: 100%;
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.thank-you-card ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--color-muted);
+  display: grid;
+  gap: 0.5rem;
+}
+
 @media (max-width: 900px) {
   .nav-toggle {
     display: block;

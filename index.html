@@ -398,9 +398,12 @@
               <li>Exclusive market intelligence and property drops</li>
             </ul>
           </div>
-          <form class="waitlist-form" aria-label="Waitlist form" name="waitlist" method="POST" data-netlify="true">
+          <form class="waitlist-form" aria-label="Waitlist form" name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
             <input type="hidden" name="form-name" value="waitlist">
-            <input type="hidden" name="bot-field">
+            <div class="honeypot" aria-hidden="true">
+              <label for="bot-field">Leave this field empty</label>
+              <input type="text" id="bot-field" name="bot-field" tabindex="-1" autocomplete="off">
+            </div>
             <label for="first-name">First name</label>
             <input type="text" id="first-name" name="first-name" placeholder="Taylor" required>
 
