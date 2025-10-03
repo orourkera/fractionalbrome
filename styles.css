@@ -1,20 +1,20 @@
 :root {
-  --color-background: #f6f8fb;
+  --color-background: #f5f4f1;
   --color-surface: #ffffff;
-  --color-surface-alt: #eef3fb;
-  --color-primary: #0b63f6;
-  --color-primary-dark: #084dd6;
-  --color-accent: #0b63f6;
-  --color-text: #1a2232;
-  --color-muted: #5a6376;
-  --color-border: #dbe3f2;
+  --color-surface-alt: #efede8;
+  --color-primary: #1f2933;
+  --color-primary-dark: #111827;
+  --color-accent: #c28a36;
+  --color-text: #1a1c1f;
+  --color-muted: #555b65;
+  --color-border: #d9d4cc;
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
   --spacing-lg: 2.5rem;
   --spacing-xl: 4rem;
   --max-width: 1120px;
-  --shadow-soft: 0 18px 40px rgba(10, 39, 97, 0.12);
+  --shadow-soft: 0 18px 40px rgba(17, 24, 39, 0.12);
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
@@ -96,7 +96,7 @@ section {
 .btn.primary {
   background-color: var(--color-primary);
   color: #fff;
-  box-shadow: 0 12px 24px rgba(11, 99, 246, 0.3);
+  box-shadow: 0 12px 24px rgba(17, 24, 39, 0.25);
 }
 
 .btn.primary:hover,
@@ -106,7 +106,7 @@ section {
 }
 
 .btn.secondary {
-  background-color: rgba(11, 99, 246, 0.12);
+  background-color: rgba(31, 41, 51, 0.12);
   color: var(--color-primary);
   border: 1px solid transparent;
 }
@@ -118,14 +118,14 @@ section {
 }
 
 .btn.ghost {
-  background-color: rgba(11, 99, 246, 0.08);
+  background-color: rgba(31, 41, 51, 0.08);
   color: var(--color-primary);
   border: 1px solid transparent;
 }
 
 .btn.ghost:hover,
 .btn.ghost:focus {
-  border-color: rgba(11, 99, 246, 0.4);
+  border-color: rgba(31, 41, 51, 0.35);
 }
 
 .text-link {
@@ -165,10 +165,11 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
-  color: var(--color-primary);
-  font-size: 1.05rem;
-  letter-spacing: 0.01em;
+  color: #111111;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
 }
 
 .nav-links {
@@ -541,7 +542,7 @@ section {
   top: -20px;
   left: 24px;
   font-size: 4rem;
-  color: rgba(11, 99, 246, 0.15);
+  color: rgba(194, 138, 54, 0.2);
 }
 
 .testimonial-grid .name {
@@ -608,7 +609,7 @@ section {
 }
 
 .waitlist {
-  background: linear-gradient(135deg, rgba(11, 99, 246, 0.95), rgba(93, 168, 255, 0.9));
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.95), rgba(64, 50, 35, 0.9));
   color: #fff;
 }
 
@@ -657,7 +658,7 @@ section {
 
 .waitlist-form input:focus,
 .waitlist-form select:focus {
-  outline: 2px solid rgba(11, 99, 246, 0.35);
+  outline: 2px solid rgba(194, 138, 54, 0.45);
   border-color: transparent;
 }
 

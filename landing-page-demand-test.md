@@ -1,4 +1,4 @@
-# Fractional Brome Landing Page Demand Test
+# Fractional Home Landing Page Demand Test
 
 ## Concept Snapshot
 - **Positioning**: Flexible fractional ownership platform that lets aspiring homeowners buy a share of a high-demand property, earn rental income, and exit on their own timeline.
@@ -8,7 +8,7 @@
 ## Page Structure & Messaging
 1. **Hero Section**
    - Headline: "Own your share of a dream home in weeks, not years."
-   - Subheadline: "Fractional Brome vets properties, manages tenants, and handles resale so you can build equity from day one."
+   - Subheadline: "Fractional Home vets properties, manages tenants, and handles resale so you can build equity from day one."
    - Primary CTA button: `Request Early Access`
    - Secondary CTA (anchor to education section): `How fractional ownership works`
    - Social proof: rotating counter (e.g., "2,400 people joined the waitlist")
@@ -43,7 +43,7 @@
    - Metrics like "Average investor onboarded in 14 minutes".
 
 8. **Education Funnel**
-   - Quick comparison chart: Buying outright vs. REIT vs. Fractional Brome.
+   - Quick comparison chart: Buying outright vs. REIT vs. Fractional Home.
    - Downloadable guide gated behind email to boost lead capture.
 
 9. **Waitlist Capture Section**
