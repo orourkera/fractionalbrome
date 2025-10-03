@@ -398,7 +398,9 @@
               <li>Exclusive market intelligence and property drops</li>
             </ul>
           </div>
-          <form class="waitlist-form" aria-label="Waitlist form">
+          <form class="waitlist-form" aria-label="Waitlist form" name="waitlist" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="waitlist">
+            <input type="hidden" name="bot-field">
             <label for="first-name">First name</label>
             <input type="text" id="first-name" name="first-name" placeholder="Taylor" required>
 
