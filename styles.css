@@ -641,6 +641,12 @@ section {
   color: #fff;
 }
 
+.waitlist-copy h2,
+.waitlist-copy .section-lead,
+.waitlist-benefits li {
+  color: #fff;
+}
+
 .waitlist-form {
   background-color: #fff;
   padding: var(--spacing-lg);
