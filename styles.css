@@ -288,6 +288,12 @@ section {
   margin-top: var(--spacing-md);
 }
 
+@media (min-width: 768px) {
+  .hero-ctas {
+    flex-wrap: nowrap;
+  }
+}
+
 .hero-stats {
   display: flex;
   gap: var(--spacing-md);
