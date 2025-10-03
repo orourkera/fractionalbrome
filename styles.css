@@ -636,7 +636,7 @@ section {
   background-color: #fff;
   padding: var(--spacing-lg);
   border-radius: var(--radius-lg);
-  box-shadow: 0 24px 60px rgba(10, 39, 97, 0.25);
+  box-shadow: 0 24px 60px rgba(17, 24, 39, 0.25);
   display: grid;
   gap: var(--spacing-sm);
   color: var(--color-text);
@@ -679,7 +679,7 @@ section {
 }
 
 .site-footer {
-  background-color: #0c163c;
+  background-color: #141821;
   color: rgba(255, 255, 255, 0.85);
   padding: var(--spacing-xl) 0;
 }
